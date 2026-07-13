@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MITRE Caldera Red Team Lab with Seceon SIEM Detection
 
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-red)
@@ -304,3 +305,7 @@ Detection & Analysis
 M.Sc. Forensic Science (Cyber Security)
 
 SOC Analyst • Threat Detection • SIEM • Digital Forensics • Incident Response • Red Team 
+=======
+# MITRE-Caldera-RedTeam-SIEM-Detection-Lab
+End-to-end Red Team adversary emulation using MITRE Caldera with detection validation in Seceon SIEM.
+>>>>>>> 7addefbdb7e02696ee6b1a82096c663df3742d94
