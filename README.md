@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # MITRE Caldera Red Team Lab with Seceon SIEM Detection
 
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-red)
@@ -90,13 +89,11 @@ This project demonstrates how offensive security operations can be combined with
 7. Forward endpoint logs to Seceon SIEM using NXLog.
 8. Validate detections and analyze the generated events within the SIEM.
 
----
-
 # 📸 Step 1 – Deploy MITRE Caldera
 
 MITRE Caldera v5.3.0 was deployed inside a Docker container hosted on Ubuntu 26.04.
 
-![Docker Running](images/docker-running.png)
+![Seceon Dashboard](images/seceon-dashboard.png)
 
 ---
 
@@ -104,7 +101,7 @@ MITRE Caldera v5.3.0 was deployed inside a Docker container hosted on Ubuntu 26.
 
 The Caldera Web Interface was accessed remotely from the Kali Linux attacker machine.
 
-![Caldera Dashboard](images/caldera-dashboard.png)
+![Docker Host](images/docker-host.png)
 
 ---
 
@@ -114,7 +111,7 @@ A Windows Sandcat agent was generated and executed on the victim endpoint.
 
 The agent established communication with the Caldera server.
 
-![Deploy Sandcat Agent](images/deploy-agent.png)
+![Docker Running](images/docker-running.png)
 
 ---
 
@@ -164,14 +161,6 @@ Collected information included:
 
 ---
 
-# 📸 Step 8 – Docker Host
-
-Ubuntu server hosting the MITRE Caldera Docker container.
-
-![Docker Host](images/docker-host.png)
-
----
-
 # 📸 Step 9 – Detection in Seceon SIEM
 
 Windows Security Events generated during the Discovery operation were successfully forwarded by NXLog and ingested into Seceon SIEM.
@@ -185,15 +174,11 @@ The SIEM dashboard displayed:
 
 ![Seceon Dashboard](images/seceon-dashboard.png)
 
----
-
-# 📸 Step 10 – Event Details
+![Event Details](images/seceon-event-details.png)
 
 Detailed event information captured by Seceon SIEM.
 
 The dashboard provides visibility into Windows Security Events generated during adversary emulation.
-
-![Event Details](images/seceon-event-details.png)
 
 ---
 
@@ -304,8 +289,4 @@ Detection & Analysis
 
 M.Sc. Forensic Science (Cyber Security)
 
-SOC Analyst • Threat Detection • SIEM • Digital Forensics • Incident Response • Red Team 
-=======
-# MITRE-Caldera-RedTeam-SIEM-Detection-Lab
-End-to-end Red Team adversary emulation using MITRE Caldera with detection validation in Seceon SIEM.
->>>>>>> 7addefbdb7e02696ee6b1a82096c663df3742d94
+SOC Analyst • Threat Detection • SIEM • Digital Forensics • Incident Response • Red Team
